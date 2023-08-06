@@ -18,7 +18,7 @@ export function OwnerNFT() {
     async function getNFTsForOwner() {
       try{
         const config = {
-          apiKey: 'vxtPxiF6p-8fM1gowlAC19ZK9qOw3jWa',
+          apiKey: '',
           network: Network.ETH_MAINNET,
         };
         const alchemy = new Alchemy(config);
